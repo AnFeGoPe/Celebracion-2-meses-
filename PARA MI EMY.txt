@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Celebrando 2 Meses Juntos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ffefff;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #e63946;
+    }
+    p {
+      font-size: 1.2em;
+      margin-top: 20px;
+    }
+    .love-message {
+      font-size: 1.5em;
+      margin-top: 30px;
+      color: #ff4d6d;
+    }
+    .highlight {
+      color: #e63946;
+      font-weight: bold;
+    }
+    .invitation {
+      margin-top: 40px;
+      font-size: 1.3em;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    .button {
+      background-color: #e63946;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1.1em;
+    }
+    .button:hover {
+      background-color: #ff4d6d;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>¡Feliz 2 Meses, mi Amor!</h1>
+  <p>Hoy celebro el amor más bonito que he encontrado. Gracias por hacerme tan feliz, por tu apoyo, tu risa y todo lo que compartimos.</p>
+  
+  <!-- Imagen relacionada con el picnic o algo romántico -->
+  <img src="https://via.placeholder.com/800x400.png?text=Picnic+Romántico" alt="Picnic Romántico">
+
+  <p class="love-message">Te amo con todo mi corazón, <span class="highlight">y siempre lo haré</span>.</p>
+  <p>Para celebrar estos dos meses, te propongo un plan increíble: <strong>un picnic bajo las estrellas</strong> y una <strong>noche de película con pizza</strong>. Solo tú y yo, disfrutando de nuestro amor.</p>
+
+  <div class="invitation">
+    <p>¿Aceptas esta invitación para hacer de esta noche algo inolvidable?</p>
+    <form action="https://formspree.io/f/maykvkzp" method="POST">
+      <label for="accept">¡Acepto el plan! 💖</label><br>
+      <input type="radio" id="accept" name="invitation" value="Acepto">
+      
+      <label for="decline">No, mejor otro día 😅</label><br>
+      <input type="radio" id="decline" name="invitation" value="No Acepto"><br><br>
+      
+      <button type="submit" class="button">Enviar respuesta</button>
+    </form>
+  </div>
+
+</body>
+</html>
